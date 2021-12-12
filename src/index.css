@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body {
+  /* background-color: #eec0c6;
+background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); */
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  background-color: #fbf7ed;
+}
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+section {
+  height: 80vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+h3{
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  word-spacing: 5px;
+}
+nav{
+  
+  padding: 10px;
+}
+ul{
+
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+main{
+  height: 20vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+@media screen and (max-width:700px){
+  ul{
+    flex-direction: column;
+  }
+li{
+  padding: 5px 0;
+}
+.carousel.slide{
+  width: 100%;
+}
+.carousel-caption{
+  display: none;
+}
+
+  }
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 6px;
+
+}
+a{
+  text-decoration: none;
+  font-size: 16px;
+}
+a.active_class{
+  color:black;
+}
+.carousel_img{
+  max-height: 600px;
+
+}
+.carousel.slide{
+  width: 80%;
+  margin:auto;
+}
